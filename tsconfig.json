@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                           /* Set the JavaScript version for emitted code */
+    "module": "commonjs",                          /* CommonJS for Node.js */
+    "moduleResolution": "node",                    /* Ensure Node-style module resolution */
+    "lib": ["es6", "node"],                        /* Include ES6 and Node.js specific libraries */
+    "esModuleInterop": true,                       /* Allow CommonJS imports to work with ES6 imports */
+    "forceConsistentCasingInFileNames": true,      /* Enforce consistent file name casing */
+    "skipLibCheck": true,                          /* Skip type-checking of library declaration files */
+    "strict": true,                                /* Enable all strict type-checking options */
+    "outDir": "./dist",                            /* Specify output directory for compiled files */
+    "sourceMap": true                              /* Enable source maps for debugging */
+  }
+}
